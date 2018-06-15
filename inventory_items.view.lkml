@@ -7,6 +7,12 @@ view: inventory_items {
     sql: ${TABLE}.id ;;
   }
 
+  dimension: fakenumber {
+    type: number
+    # hidden: yes
+    sql: 1 ;;
+  }
+
   dimension: cost {
     type: number
     sql: ${TABLE}.cost ;;
