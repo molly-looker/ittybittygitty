@@ -10,7 +10,7 @@ view: inventory_items {
   dimension: fakenumber {
     type: number
     # hidden: yes
-    sql: 1 ;;
+    sql: 2 ;;
   }
 
   dimension: cost {
