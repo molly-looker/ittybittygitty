@@ -28,7 +28,7 @@ view: events {
 
   dimension: fakeshz {
     type: number
-    sql: 1 ;;
+    sql: 2 ;;
   }
 
   dimension: user_id {
