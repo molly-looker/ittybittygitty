@@ -26,9 +26,11 @@ view: events {
     sql: ${TABLE}.type_id ;;
   }
 
+
+
   dimension: fakeshz {
     type: number
-    sql: 2 ;;
+    sql: 3 ;;
   }
 
   dimension: user_id {

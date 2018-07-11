@@ -23,9 +23,14 @@ explore: events {
 
 explore: inventory_items {
   join: products {
-    type: left_outer
-    sql_on: ${inventory_items.product_id} = ${products.id} ;;
+    sql: LEFT JOIN (
+                SELECT *
+                FROM products
+                )
+                products
+            ON products.id = ${inventory_items.product_id} ;;
     relationship: many_to_one
+
   }
 }
 
