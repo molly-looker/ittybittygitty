@@ -32,6 +32,12 @@ view: orders {
     sql: ${TABLE}.user_id ;;
   }
 
+  dimension: fakeshiz {
+    type: number
+    # hidden: yes
+    sql: 1 ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [id, users.first_name, users.last_name, users.id, order_items.count]
