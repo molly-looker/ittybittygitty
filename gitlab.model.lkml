@@ -35,6 +35,7 @@ explore: inventory_items {
   }
 }
 
+
 explore: order_items {
   join: inventory_items {
     type: left_outer
