@@ -21,6 +21,7 @@ explore: events {
   }
 }
 
+
 explore: inventory_items {
   join: products {
     sql: LEFT JOIN (
