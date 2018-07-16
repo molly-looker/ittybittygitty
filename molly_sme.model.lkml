@@ -4,10 +4,6 @@ connection: "looker-dcl-dev"
 include: "*.view"
 
 
-
-
-
-
 explore: dimgroup3 {
 
   join: dimgroup4 {
