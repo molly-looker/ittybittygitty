@@ -1,4 +1,4 @@
-connection: "redshift"
+connection: "sasha-thesis"
 
 # include all the views
 include: "*.view"
