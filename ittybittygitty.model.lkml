@@ -12,6 +12,4 @@ persist_with: ittybittygitty_default_datagroup
 
 explore: ra {}
 
-#this is a committed change
-#testing a commit
-#testing another commit
+#test commit protect
