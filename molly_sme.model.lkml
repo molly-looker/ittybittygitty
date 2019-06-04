@@ -1,4 +1,4 @@
-connection: "looker-dcl-dev"
+connection: "redshift"
 
 # include all the views
 include: "*.view"
