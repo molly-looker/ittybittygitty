@@ -1,4 +1,4 @@
-# connection: "sasha-thesis"
+ connection: "sasha-thesis"
 #
 # # include all the views
 # include: "*.view"
