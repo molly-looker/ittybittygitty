@@ -1,4 +1,4 @@
-#test
+#changing this file but NOT committing
 
 view: ra {
   sql_table_name: public.ra ;;
