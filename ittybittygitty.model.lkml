@@ -1,3 +1,4 @@
+
 connection: "redshift"
 
 # include all the views
